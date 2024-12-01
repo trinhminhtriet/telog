@@ -18,8 +18,8 @@ use log::{warn, info, Level};
 fn main() {
     telog::init(
         Level::Error, // log level
-        String::from("1496993932:AAFrF5aTnQEeruljp3ZHqVUSkgVS9Ra_aT8"), // bot token
-        String::from("79098882"), // chat ID
+        String::from("123123123:token"), // bot token
+        String::from("123123123"), // chat ID
         None, // proxy url, if needed
     )
     .unwrap();

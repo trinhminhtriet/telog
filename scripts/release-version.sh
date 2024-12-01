@@ -5,6 +5,7 @@ set -xe
 
 current_version="$(grep '^version = ' Cargo.toml | head -1 | cut -d '"' -f2)"
 new_version="$1"
+semver=${new_version#v}
 
 if [ -z "$new_version" ]; then
     echo "New version required as argument"

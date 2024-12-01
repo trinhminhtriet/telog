@@ -20,7 +20,7 @@ echo ">>> Running tests"
 cargo build
 cargo test
 
-sleep 10
+sleep 5
 
 echo ">>> Commit"
 git add Cargo.toml Cargo.lock

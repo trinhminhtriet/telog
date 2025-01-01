@@ -162,9 +162,9 @@ dependencies = [
 
 [[package]]
 name = "build-env"
-version = "0.2.0"
+version = "0.3.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e068f31938f954b695423ecaf756179597627d0828c0d3e48c0a722a8b23cf9e"
+checksum = "1522ac6ee801a11bf9ef3f80403f4ede6eb41291fac3dde3de09989679305f25"
 
 [[package]]
 name = "bumpalo"
@@ -945,9 +945,9 @@ dependencies = [
 
 [[package]]
 name = "libsystemd-sys"
-version = "0.7.1"
+version = "0.9.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a40ce9d49a59af3c54dff74749f1ab14684fe485cdae0c92bd6d71ea8544d0c5"
+checksum = "ed080163caa59cc29b34bce2209b737149a4bac148cd9a8b04e4c12822798119"
 dependencies = [
  "build-env",
  "libc",
@@ -983,9 +983,9 @@ checksum = "7ffc5c5338469d4d3ea17d269fa8ea3512ad247247c30bd2df69e68309ed0a08"
 
 [[package]]
 name = "memchr"
-version = "2.3.4"
+version = "2.7.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0ee1c47aaa256ecabcaea351eae4a9b01ef39ed810004e298d2511ed284b1525"
+checksum = "78ca9ab1a0babb1e7d5695e3530886289c18cf2f87ec19a575a0abdce112e3a3"
 
 [[package]]
 name = "mime"
@@ -1631,9 +1631,9 @@ dependencies = [
 
 [[package]]
 name = "systemd"
-version = "0.7.1"
+version = "0.10.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "954ca4554d4e42f566a6b6a159010c70dd328efcbdd0ee8b1d230cb4dba25af7"
+checksum = "afec0101d9ae8ab26aedf0840109df689938ea7e538aa03df4369f1854f11562"
 dependencies = [
  "cstr-argument",
  "foreign-types 0.5.0",

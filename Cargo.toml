@@ -1,6 +1,6 @@
 [package]
 name = "telog"
-version = "0.1.2"
+version = "0.1.3"
 authors = ["Triet Trinh <contact@trinhminhtriet.com>"]
 description = "Aggregate logs from various sources and send real-time notifications to Telegram for easy monitoring."
 license = "MIT"
